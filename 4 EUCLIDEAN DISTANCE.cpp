@@ -10,7 +10,7 @@ int main()
 	printf("enter points2 (x2,y2)\n");//printf function calling to print the values of points x2,y2
 	scanf("%f%f",&x2,&y2);//scanf function calling to input the values of point x2,y2
 
-	d=sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));//the distance formula (logic)
+	d=sqrt((x2-x1)^2+(y2-y1)^2);//the distance formula (logic)
 	printf("distance betweem these two points is %f \n" ,x1,x2,y1,y2,d);//printf funtion calling to print the distance between the two points 
 
 	return 0;//returning statements
