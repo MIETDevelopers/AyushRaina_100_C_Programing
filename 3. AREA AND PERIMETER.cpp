@@ -5,7 +5,7 @@ int main()
 {//main function body starts
 	
 	float radiusOfCircle, sideOfSquare, legthOfRectangle, breadthOfRectangle;//variable declaration
-	raduisOfCircle = 3,sideOfSquare = 6,legthOfRectangle = 9,breadthOfRectangle =12;//value assignment
+	radiusOfCircle = 3,sideOfSquare = 6,legthOfRectangle = 9,breadthOfRectangle =12;//value assignment
 	
 	printf("Area of Circle: %f",(3.14*radiusOfCircle*radiusOfCircle));//printf statement for printing area of circle(output)
 	
