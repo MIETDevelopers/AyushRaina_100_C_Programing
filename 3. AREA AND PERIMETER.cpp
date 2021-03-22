@@ -4,12 +4,12 @@
 int main()
 {//main function body starts
 	
-	float raduisOfCircle, sideOfSquare, legthOfRectangle, breadthOfRectangle;//variable declaration
-	raduisOfCircle = 3,sideOfSquare = 6,legthOfRectangle = 9,breadthOfRectangle =12;//value assignment
+	float radiusOfCircle, sideOfSquare, legthOfRectangle, breadthOfRectangle;//variable declaration
+	radiusOfCircle = 3,sideOfSquare = 6,legthOfRectangle = 9,breadthOfRectangle =12;//value assignment
 	
-	printf("Area of Circle: %f",(3.14*raduisOfCircle*raduisOfCircle));//printf statement for printing area of circle(output)
+	printf("Area of Circle: %f",(3.14*radiusOfCircle*radiusOfCircle));//printf statement for printing area of circle(output)
 	
-	printf("\nPerimeter of Circle: %f",(2*3.14*raduisOfCircle));//printf statement for printing perimeter of circle(output)
+	printf("\nPerimeter of Circle: %f",(2*3.14*radiusOfCircle));//printf statement for printing perimeter of circle(output)
 	
 	printf("\nArea of Square: %f",(sideOfSquare*sideOfSquare));//printf statement for printing area of square(output)
 	

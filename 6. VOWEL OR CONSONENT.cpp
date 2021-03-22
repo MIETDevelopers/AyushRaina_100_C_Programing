@@ -7,7 +7,8 @@ int main()
     printf("Enter any alphabet: ");//Printf function calling to print an alphabet
     scanf("%c", &ch);//Scanf function calling to input user input
 
-    switch(ch){//Start of Switch case body
+    switch(ch)
+    {//Start of Switch case body
         case 'a'://Case 1 
             printf("Vowel");//Printf function calling to print vowel
             break;//Break statement
