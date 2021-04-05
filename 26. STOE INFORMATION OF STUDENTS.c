@@ -35,3 +35,4 @@ int main() {//main function body starts
        printf(" Percentage : %f \n", record2.percentage);//printf calling to print Percentage 
        return 0;//Return statement
 }//end of main function bodY
+ 
