@@ -38,4 +38,4 @@ int main()
 
 	printf("\nSUM of all elements : %d \nProduct of all elements :%d",sum,product);
 	return 0;	
-}
+} 
