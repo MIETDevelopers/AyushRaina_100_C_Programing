@@ -7,3 +7,4 @@ int main(){
 	printf("Hello Buddy!!");//Here we entered the texted to be printed.
 	return 's';
 }
+ 
