@@ -15,3 +15,4 @@ int main()
   printf("Sum of the digits of Given Number = %d\n", Sum);//Printf function to print sum of digits of given number
   return 0;//Return statement 
 }//End of the main function body
+ 
