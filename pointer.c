@@ -8,3 +8,4 @@ int main()
    printf("Value stored in a variable p is:%d\n",*p);   //accessing the value
    return 0;
 }
+ 
