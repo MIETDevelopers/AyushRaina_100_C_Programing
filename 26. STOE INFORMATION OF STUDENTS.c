@@ -34,5 +34,5 @@ int main() {//main function body starts
        record2.percentage = 99.50;//value assignment
        printf(" Percentage : %f \n", record2.percentage);//printf calling to print Percentage 
        return 0;//Return statement
-}//end of main function bodY
+}//end of main function bodY 
  
