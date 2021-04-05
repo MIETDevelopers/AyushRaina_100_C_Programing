@@ -25,3 +25,4 @@ struct s {//start of structure body
 	}//end of for loop
 	fclose(fptr); //Closing the program.
 }//end of main body
+ 
