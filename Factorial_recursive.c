@@ -17,7 +17,7 @@
    else
    {
  
-   for(i=1;i<= num;i++) //for loop doesn’t gets executed for input 0 as 1>0,  therefore fact value remains 1
+   for(i=1;i<= num;i++) //for loop doesnâ€™t gets executed for input 0 as 1>0,  therefore fact value remains 1
 
 {
  
@@ -32,3 +32,4 @@ fact = fact * i;  // keeps on multiplying and storing in the value of factorial 
     return 0; //Return statement 
  
 }//end of main function body
+
