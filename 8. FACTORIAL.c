@@ -13,3 +13,4 @@ int main()
 	printf("%d",f);//Printf function calling to print factorial
 	return 0;//Return statement
 }//End of main function bodY
+ 
