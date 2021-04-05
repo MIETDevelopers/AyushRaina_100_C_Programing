@@ -6,20 +6,20 @@
     int I , num , // variable declaration
     fact = 1; //defining factorial as 1 since least value is 1
  
-   printf (ìEnter a number to calculate its factorialî);//Printf function calling to print Enter a number to calculate its factorial 
+   printf (‚ÄúEnter a number to calculate its factorial‚Äù);//Printf function calling to print Enter a number to calculate its factorial 
  
-   scanf (ì%dî, &num);////Scanf function calling for user input
+   scanf (‚Äú%d‚Äù, &num);////Scanf function calling for user input
  
    if (num<0) //if the input is a negative integer
    {
  
-   printf (ìFactorial is not defined for negative numbers.î);
+   printf (‚ÄúFactorial is not defined for negative numbers.‚Äù);
    }
  
    else
    {
  
-   for(i=1;i<= num;i++) //for loop doesnít gets executed for input 0 as 1>0,  therefore fact value remains 1
+   for(i=1;i<= num;i++) //for loop doesn‚Äôt gets executed for input 0 as 1>0,  therefore fact value remains 1
 
 {
  
@@ -27,7 +27,7 @@ fact = fact * i;  // keeps on multiplying and storing in the value of factorial 
  
               }
  
-   printf(ìFactorial of %d = %dnî, num, fact);
+   printf(‚ÄúFactorial of %d = %dn‚Äù, num, fact);
  
     }
  
