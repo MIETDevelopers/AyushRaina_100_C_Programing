@@ -1,6 +1,7 @@
-#include <stdio.h>
+// Purpose: return pointers
+#include <stdio.h>    // Preprocessor to include the standard input and output funtions
 int* findLarger(int*, int*);
-int main()
+int main()     // Start of body  
 {
  int numa=0;
  int numb=0;
@@ -22,4 +23,4 @@ int* findLarger(int *n1, int *n2)
   return n1;
  else
   return n2;
-}
+}   // End of body
