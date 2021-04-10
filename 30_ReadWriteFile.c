@@ -17,7 +17,7 @@ struct s {//start of structure body
 	//Writing program.
 	fwrite(a,sizeof(a),1,fptr);
 	fclose(fptr);
-	fptr=fopen("D:\\Suryansh_119_C_Programs_Repository\\Read_Write_File.txt","rb");
+	fptr=fopen("D:\\Ayush_100_C_Programs_Repository\\Read_Write_File.txt","rb");
 	fread(b,sizeof(b),1,fptr);
 	printf("\n Entered details are:\n");//printf calling to print entered detail are
 	for (i=0;i<1;++i) {//start of for loop body
