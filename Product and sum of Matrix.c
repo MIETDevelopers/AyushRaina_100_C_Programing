@@ -1,19 +1,20 @@
-#include <stdio.h>
+
+// Purpose: To find product ans sum of matrix
 #define MAXROW		10
 #define MAXCOL		10
 
-int main()
+int main()   // Start of Main body 
 {
 	int matrix[MAXROW][MAXCOL];
 	int i,j,r,c;
 	int sum,product;
 	
-	printf("Enter number of Rows :");
+	printf("Enter number of Rows :");   // Taking input 
 	scanf("%d",&r);
-	printf("Enter number of Cols :");
+	printf("Enter number of Cols :");   // Taking input 
 	scanf("%d",&c);
 
-	printf("\nEnter matrix elements :\n");
+	printf("\nEnter matrix elements :\n");  // asking user to enter element to search 
 	for(i=0;i< r;i++)
 	{
 		for(j=0;j< c;j++)
@@ -38,4 +39,4 @@ int main()
 
 	printf("\nSUM of all elements : %d \nProduct of all elements :%d",sum,product);
 	return 0;	
-} 
+} // End of Body
