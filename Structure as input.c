@@ -1,3 +1,4 @@
+// Purpose: Take strcture as input
 #include <stdio.h>
 struct student {
    char name[50];
