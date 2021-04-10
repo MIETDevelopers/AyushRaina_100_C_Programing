@@ -1,3 +1,4 @@
+// Purpose: Array initialization
 #include <stdio.h>
  
 int main () {
