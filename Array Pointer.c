@@ -1,3 +1,4 @@
+// Purpose: Array pointers
 #include <stdio.h>
 int main( )
 {
