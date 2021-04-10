@@ -1,3 +1,4 @@
+// Purpose: To find max size
 #include <stdio.h>
 #define MAX_SIZE 100
 
