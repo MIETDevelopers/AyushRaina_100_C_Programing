@@ -1,3 +1,5 @@
+// Author: Ayush Raina
+// Purpose: C program to read name and marks of n number of students from user and store them in a file
 #include <stdio.h>
 #include <stdlib.h>
 struct student
